@@ -113,9 +113,10 @@ body {
 /*header section*/
 .hero_area {
   height: 98vh;
-  background-image: url(../images/hero.jpg);
+  background-image: url(../images/fonf.jpeg);
   background-size: cover;
   background-attachment: fixed;
+  Filter: grayscale(30%) sepia(40%) hue-rotate(-10deg) brightness(0.9);
 }
 
 .sub_page .hero_area {
@@ -137,7 +138,7 @@ body {
 
 .custom_nav-container.navbar-expand-lg .navbar-nav .nav-link {
   padding: 10px 30px;
-  color: #ffffff;
+  color: #1f1e1e;
   text-align: center;
   text-transform: uppercase;
 }
@@ -437,6 +438,17 @@ a:focus {
 .contact_section input.message-box {
   height: 150px;
 }
+/* Colores de texto para la navbar y demás texto */
+.header_section, .hero_section, .hero_section h1, .hero_section h3, .nav-link {
+  color: rgb(41, 40, 40);
+}
+
+/* Específicamente para la palabra "KÉFIR" */
+.navbar-brand span, /* Logo "KÉFIR" en la barra de navegación */
+.hero_section h3 span.kefir-highlight { /* "KÉFIR" en la sección de héroe */
+  color: #d9534f; /* Color específico para KÉFIR, ajusta según prefieras */
+  font-weight: bold;
+}
 
 .contact_section button {
   background-color: #e92c06;
@@ -535,11 +547,14 @@ a:focus {
 .client_section .carousel-indicators li.active {
   background-color: #46a102;
 }
-
+.container .info_items p {
+  text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.6);
+}
 .info_section {
-  background-image: url(../images/info-bg.jpg);
+  background-image: url(../images/iooe.png);
   background-size: cover;
   background-attachment: fixed;
+  Filter: grayscale(30%) sepia(40%) hue-rotate(-10deg) brightness(0.9);
 }
 
 .info_section .logo-box {
